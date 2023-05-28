@@ -1,0 +1,29 @@
+.card{
+	background-color: rgb(255 246 236);
+	padding: 10px;
+	align-items: center; 
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); 
+	border-radius: 4px;
+	margin: 20px 5px;
+	text-align: center;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.btn-sand{
+	position: center;
+}
+
+h1{
+	text-size-adjust: 30px;
+}
+
+h2{
+	text-size-adjust: 20px;
+}
+
+.card img{
+	width: 200px;
+	border-radius: 10%;
+}

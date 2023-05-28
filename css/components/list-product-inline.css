@@ -1,0 +1,13 @@
+.list-product-inline{
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.list-product-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-product-inline i {
+	font-size: : 60px;
+}

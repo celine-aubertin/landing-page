@@ -1,0 +1,14 @@
+ .btn-sand {
+	color: orangered; 
+	background-color: rgb(255, 237, 219);
+	padding: 15px 40px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	border: 0.3px solid;
+    border-color: brown;
+    font-family: 'Mulish', sans-serif;
+ }
+
+.btn-sand:hover {
+	background-color:orangered;
+}

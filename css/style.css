@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Mulish:wght@300&family=Playfair+Display&family=Radley&display=swap');
+@import url("components/container.css"); 
+@import url("components/product.css"); 
+@import url("components/button.css"); 
+@import url("components/banner.css"); 
+@import url("components/list-product-inline.css"); 
+@import url("components/card.css"); 
+@import url("components/upperbar-fix.css");
+@import url("components/card-bar");
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px; 
+    color: darkred;
+}
+    
+h1, h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: rgb(166, 75, 42);
+}
+
+h3{
+    font-family: Mulish; sans-serif; 
+    font-weight: bolder;
+}
+h4{
+    font-family: 'Radley', serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container{
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 400px;
+    }
+}
+
+a {
+    color: orangered ;
+    text-decoration: none ;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(255 246 236);
+}
+
+.upperbar-fix{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255 246 236);
+    top: 0;
+    opacity: 0.8;
+}
+.upperbar-fix ul{
+    margin: 0;
+    padding: 0;
+}
+
+.upperbar-fix li{
+    display: inline;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(166, 75, 42);
+}
+
+.upperbar-fix img{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    display: inline-flex;
+
+}
+
+.upperbar-fix a{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    color: darkred;
+}
+
+.upperbar-fix a:hover{
+    color: orangered;
+    margin-top: 4px;
+}

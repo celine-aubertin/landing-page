@@ -1,0 +1,10 @@
+.upperbar-fix {
+  background-color: rgb(255 246 236);
+  position: fixed;
+  width: 869px;
+  top: 0px;
+}
+
+.upperbar-fix li {
+  display: inline;
+}
